@@ -1,7 +1,7 @@
 # Train our Model
 
-# Train a best neural network model based on the images directory (D:\\Facial Emotion Detection\\Images) here.
-# Now understand Images directory - it has different sub folders
+## Train a best neural network model based on the images directory (D:\\Facial Emotion Detection\\Images) here.
+## Now understand Images directory - it has different sub folders
 ## Images Directory Structure
 
 ```plaintext
@@ -40,7 +40,7 @@ Images
 
 ```
 
-# Train.py
+### Train.py
 
 - Different sub folders have different images in the form of .jpg, .jpeg, .png with different size.
 - Each and every subfolder belongs to a category
@@ -53,7 +53,7 @@ Images
 - That means if model stores in .hf or .tf or .csv or any format - just take model path in different file (recognise.py)
 
 
-# In recognize.py, there is simple recognize gui that has two buttons 
+### In recognize.py, there is simple recognize gui that has two buttons 
 
 - One is open webcam and another is open file explorer
 - When we open webcam, it tries to predict the images from the training model and say its realtime name
