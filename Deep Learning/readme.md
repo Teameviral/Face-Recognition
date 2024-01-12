@@ -2,37 +2,42 @@
 
 # Train a best neural network model based on the images directory (D:\Facial Emotion Detection\Images) here.
 # Now understand Images directory - it has different sub folders
-''' 
-Images
+## Images Directory Structure
 
-   -  APJ Abdul Kalam
-          AP1.jpg
-          AP2.jpg
-          AP3.jpg
-          AP4.jpg
-   - Apple
-          1.jpg
-          2.jpg
-          3.jpg
-          4.jpg
-          5.jpg
-   - Avishek Bhattacharjee
-          A1.jpg
-          A2.jpg
-          A3.jpg
-          A4.jpg
-    - HETC
-          H1.jpg
-          H2.jpg
-          H3.jpg
-          H4.jpg
-    - Mango
-          M1.jpg
-          M2.jpg
-          M3.jpg
-          M4.jpg
-        
-'''
+```plaintext
+Images
+│
+├── APJ Abdul Kalam
+│   ├── AP1.jpg
+│   ├── AP2.jpg
+│   ├── AP3.jpg
+│   └── AP4.jpg
+│
+├── Apple
+│   ├── 1.jpg
+│   ├── 2.jpg
+│   ├── 3.jpg
+│   ├── 4.jpg
+│   └── 5.jpg
+│
+├── Avishek Bhattacharjee
+│   ├── A1.jpg
+│   ├── A2.jpg
+│   ├── A3.jpg
+│   └── A4.jpg
+│
+├── HETC
+│   ├── H1.jpg
+│   ├── H2.jpg
+│   ├── H3.jpg
+│   └── H4.jpg
+│
+└── Mango
+    ├── M1.jpg
+    ├── M2.jpg
+    ├── M3.jpg
+    └── M4.jpg
+
 # Different sub folders have different images in the form of .jpg, .jpeg, .png with different size.
 # Each and every subfolder belongs to a category
 # There are 3 categories 
