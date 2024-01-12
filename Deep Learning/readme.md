@@ -68,10 +68,11 @@ Images
 
 - Here we use the slightly modified copy of data to increase the accuracy of training in the unseen data or new data.
 - It modifies the data by rotating, flipping and cropping the original data.
-- ```
-import os  # Allows interaction with the operating system
-from tensorflow.keras.preprocessing.image import ImageDataGenerator  # Tool for image data augmentation
-from tensorflow.keras.preprocessing import image  # Image processing utilities
-```
+- Let's check the code.
+    ```
+    import os  # Allows interaction with the operating system
+    from tensorflow.keras.preprocessing.image import ImageDataGenerator  # Tool for image data augmentation
+    from tensorflow.keras.preprocessing import image  # Image processing utilities
+    ```
 
 
