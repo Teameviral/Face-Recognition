@@ -1,6 +1,6 @@
 # Train our Model
-
-## Train a best neural network model based on the images directory (D:\\Facial Emotion Detection\\Images) here.
+--------------------------------------------------------------------------------------------------------------
+### Train a best neural network model based on the images directory (D:\\Facial Emotion Detection\\Images) here.
 ## Now understand Images directory - it has different sub folders
 ## Images Directory Structure
 
