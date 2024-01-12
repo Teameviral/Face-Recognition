@@ -1,4 +1,5 @@
 import os
+import pickle
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.applications import VGG16
 from tensorflow.keras import layers
@@ -87,6 +88,12 @@ history = model.fit(
     epochs=10,
     callbacks=[checkpoint]
 )
+
+# Save the training history
+with open("history.pkl", "wb") as f:
+    pickle.dump(history.history, f)
+# Print a message after training completes
+print("Training completed for 10 epochs.")
 
 
 
