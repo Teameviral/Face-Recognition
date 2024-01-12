@@ -63,3 +63,15 @@ Images
 - Quit Webcam -Pressing Q
 - Open Explorer button while clicking and open any image - it checks image from training model and check size of image , resize it to fit name on image and show
 - Can be closed
+
+### Data Augmentation
+
+- Here we use the slightly modified copy of data to increase the accuracy of training in the unseen data or new data.
+- It modifies the data by rotating, flipping and cropping the original data.
+- ```
+import os  # Allows interaction with the operating system
+from tensorflow.keras.preprocessing.image import ImageDataGenerator  # Tool for image data augmentation
+from tensorflow.keras.preprocessing import image  # Image processing utilities
+```
+
+
