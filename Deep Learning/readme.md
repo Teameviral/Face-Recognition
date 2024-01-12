@@ -1,6 +1,6 @@
 # Train our Model
 
-# Train a best neural network model based on the images directory (D:\Facial Emotion Detection\Images) here.
+# Train a best neural network model based on the images directory (D:\\Facial Emotion Detection\\Images) here.
 # Now understand Images directory - it has different sub folders
 ## Images Directory Structure
 
@@ -40,15 +40,17 @@ Images
 
 ```
 
-# Different sub folders have different images in the form of .jpg, .jpeg, .png with different size.
-# Each and every subfolder belongs to a category
-# There are 3 categories 
-# Which sub folder has two or more words with spaces like APJ ABDUL KALAM - It's a huaman name
-# Which has only single word like Apple, Mango are fruit category.
-# Which has CAPSLOCK format like HETC - It's a college category.
-# Train like this we can recognize real time objects using webcam or opening image through the sub-folder name and is category.
-# Training model must predict and classify all images via its sub folder name just using its model path
-# That means if model stores in .hf or .tf or .csv or any format - just take model path in different file (recognise.py)
+# Train.py
+
+- Different sub folders have different images in the form of .jpg, .jpeg, .png with different size.
+- Each and every subfolder belongs to a category
+- There are 3 categories 
+- Which sub folder has two or more words with spaces like APJ ABDUL KALAM - It's a huaman name
+- Which has only single word like Apple, Mango are fruit category.
+- Which has CAPSLOCK format like HETC - It's a college category.
+- Train like this we can recognize real time objects using webcam or opening image through the sub-folder name and is category.
+- Training model must predict and classify all images via its sub folder name just using its model path
+- That means if model stores in .hf or .tf or .csv or any format - just take model path in different file (recognise.py)
 
 
 # In recognize.py, there is simple recognize gui that has two buttons 
