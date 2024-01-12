@@ -54,11 +54,12 @@ Images
 
 
 # In recognize.py, there is simple recognize gui that has two buttons 
-# One is open webcam and another is open file explorer
-# When we open webcam, it tries to predict the images from the training model and say its realtime name
-# Like if the person is APJ Abdul Kalam - it prints it on webcam until the person present
-# If person leaves webcam it should not print anything
-# When new person come, it prints new name if it's on the model like Avishek Bhattacharjee
-# Quit Webcam -Pressing Q
-# Open Explorer button while clicking and open any image - it checks image from training model and check size of image , resize it to fit name on image and show
-# Can be closed
+
+- One is open webcam and another is open file explorer
+- When we open webcam, it tries to predict the images from the training model and say its realtime name
+- Like if the person is APJ Abdul Kalam - it prints it on webcam until the person present
+- If person leaves webcam it should not print anything
+- When new person come, it prints new name if it's on the model like Avishek Bhattacharjee
+- Quit Webcam -Pressing Q
+- Open Explorer button while clicking and open any image - it checks image from training model and check size of image , resize it to fit name on image and show
+- Can be closed
