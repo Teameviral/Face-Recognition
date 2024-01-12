@@ -75,6 +75,7 @@ Images
     from tensorflow.keras.preprocessing import image  # Image processing utilities
     ```
 -  Data Generators
+  
    ```
    # Create an ImageDataGenerator with desired augmentation parameters
 datagen = ImageDataGenerator(
@@ -87,6 +88,6 @@ datagen = ImageDataGenerator(
     fill_mode='nearest'  # Fill in missing pixels using the nearest available pixel
 )
 
-```
+   ```
 
 
