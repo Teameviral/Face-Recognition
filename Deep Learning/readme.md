@@ -38,6 +38,8 @@ Images
     ├── M3.jpg
     └── M4.jpg
 
+```
+
 # Different sub folders have different images in the form of .jpg, .jpeg, .png with different size.
 # Each and every subfolder belongs to a category
 # There are 3 categories 
