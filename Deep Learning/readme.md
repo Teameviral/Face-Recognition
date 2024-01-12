@@ -78,16 +78,16 @@ Images
   
    ```
    # Create an ImageDataGenerator with desired augmentation parameters
-datagen = ImageDataGenerator(
-    rotation_range=40,  # Rotate the image up to 40 degrees
-    width_shift_range=0.2,  # Shift the image width-wise by up to 20%
-    height_shift_range=0.2,  # Shift the image height-wise by up to 20%
-    shear_range=0.2,  # Apply shear transformations
-    zoom_range=0.2,  # Zoom into the image by up to 20%
-    horizontal_flip=True,  # Flip the image horizontally
-    fill_mode='nearest'  # Fill in missing pixels using the nearest available pixel
-)
-
+    datagen = ImageDataGenerator(
+        rotation_range=40,  # Rotate the image up to 40 degrees
+        width_shift_range=0.2,  # Shift the image width-wise by up to 20%
+        height_shift_range=0.2,  # Shift the image height-wise by up to 20%
+        shear_range=0.2,  # Apply shear transformations
+        zoom_range=0.2,  # Zoom into the image by up to 20%
+        horizontal_flip=True,  # Flip the image horizontally
+        fill_mode='nearest'  # Fill in missing pixels using the nearest available pixel
+    )
    ```
+
 
 
