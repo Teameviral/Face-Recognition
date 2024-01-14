@@ -14,5 +14,5 @@ Here you can find the code about how to make your own face recognition system. F
 - Download the source code.
 - Unzip it and open it through any IDE.
 - Install all neccessary libraries to your system or any virtual environment.
-- Run the code as mentioned in the videos.
+- Run the code as i mentioned in these videos.
 - Enjoy...
